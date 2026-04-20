@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Indulekha Sagampalli</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .edu-item { margin-bottom: 2rem; border-left: 2px solid var(--border-color); padding-left: 1.5rem; position: relative; }
+        .edu-item::before { content: ''; position: absolute; left: -6px; top: 0; width: 10px; height: 10px; background: var(--accent-color); border-radius: 50%; }
+        .hobby-tag { display: inline-block; padding: 0.5rem 1rem; background: #f1f1f1; margin: 0.2rem; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <header style="position: fixed; width: 100%; top: 0; padding: 1.5rem 10%; display: flex; flex-direction: column; align-items: center; gap: 0.8rem; z-index: 100; background: rgba(255,255,255,0.8); backdrop-filter: blur(8px); border-bottom: 1px solid #f1f1f1;">
+        <div style="font-weight: 900; font-size: 1.8rem; letter-spacing: -1px;">IS.</div>
+        <nav style="display: flex; gap: 2rem;">
+            <a href="#about" style="font-weight: 800; font-size: 0.75rem; letter-spacing: 1.5px; text-decoration: none;">ABOUT</a>
+            <a href="#education" style="font-weight: 800; font-size: 0.75rem; letter-spacing: 1.5px; text-decoration: none;">EDUCATION</a>
+            <a href="#skills" style="font-weight: 800; font-size: 0.75rem; letter-spacing: 1.5px; text-decoration: none;">SKILLS & LANGUAGES</a>
+            <a href="#projects" style="font-weight: 800; font-size: 0.75rem; letter-spacing: 1.5px; text-decoration: none;">PROJECTS</a>
+            <a href="#contact" style="font-weight: 800; font-size: 0.75rem; letter-spacing: 1.5px; text-decoration: none;">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="portfolio-bg-text">PORTFOLIO</div>
+        <div class="hero-content" style="margin-top: 50px;">
+            <h1 class="hero-name">Indulekha Sagampalli</h1>
+            <p class="hero-tagline">BE IN COMPUTER SCIENCE (DATA SCIENCE) | 2ND YEAR</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">ABOUT ME</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p style="margin-bottom: 1.5rem; font-weight: 700; font-size: 1.5rem; text-align: left;">Hi there, I’m Indulekha!</p>
+                <p>I enjoy being creative and exploring different perspectives in everything I do. I completed part of my early education in the United States, gaining international exposure and a strong global outlook.</p>
+                <p style="margin-top: 1rem;">Currently, I am pursuing Bachelor of Engineering in Computer Science (Data Science) at JNNCE, where I am focused on learning new concepts and exploring modern technologies.</p>
+                
+                <div style="margin-top: 2rem;">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">HOBBIES</h3>
+                    <div class="hobby-tag">Reading</div>
+                    <div class="hobby-tag">Art</div>
+                    <div class="hobby-tag">Music</div>
+                    <div class="hobby-tag">Gaming</div>
+                    <div class="hobby-tag">Photography</div>
+                    <div class="hobby-tag">Editing</div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center;">
+                <div style="background: url('assets/profile.jpg') center/cover no-repeat; height: 350px; width: 350px; border: 1px solid #e0e0e0; border-radius: 50%;">
+                </div>
+                <div class="glass-card" style="border: 1px solid #e0e0e0; padding: 1.5rem;">
+                    <h3 style="margin-bottom: 1rem; font-size: 1rem;">ACHIEVEMENTS</h3>
+                    <p style="font-size: 0.9rem; font-weight: 700;">• Spark-Hack 2026 Participant</p>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1rem;">Organized by JNNCE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" style="background: #f8f9fa;">
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="container">
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">Jawaharlal Nehru National College of Engineering</h3>
+                <p style="font-weight: 700;">Bachelor of Engineering, Data Science</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2024 – 2028</p>
+            </div>
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">S.A.V Composite P U College</h3>
+                <p style="font-weight: 700;">11th Grade-12th Grade, Stream: Science (PCMB)</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2022 – 2024</p>
+            </div>
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">S.A.V English High School</h3>
+                <p style="font-weight: 700;">8th Grade-10th Grade</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2019 – 2022</p>
+            </div>
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">S.A.V English Higher Primary School</h3>
+                <p style="font-weight: 700;">6th Grade-7th Grade</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2017 – 2019</p>
+            </div>
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">Millstone River School (USA)</h3>
+                <p style="font-weight: 700;">4th Grade-5th Grade</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2015 – 2017</p>
+            </div>
+            <div class="edu-item">
+                <h3 style="font-size: 1.2rem;">J.V.B Wicoff Elementary School (USA)</h3>
+                <p style="font-weight: 700;">Kindergarten-3rd Grade</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">2011 – 2015</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">SKILLS & LANGUAGES</h2>
+        <div class="about-grid">
+            <div>
+                <div class="skill-category">
+                    <h3 style="margin-bottom: 1rem; font-size: 1.2rem;">Professional Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Microsoft PowerPoint</div>
+                        <div class="skill-item">English</div>
+                        <div class="skill-item">Excel</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 style="margin-bottom: 1rem; font-size: 1.2rem;">Languages</h3>
+                <div class="lang-item">
+                    <span style="font-weight: 700;">English</span>
+                    <span style="color: var(--text-secondary); font-size: 0.8rem;">Native or bilingual proficiency</span>
+                </div>
+                <div class="lang-item">
+                    <span style="font-weight: 700;">Kannada</span>
+                    <span style="color: var(--text-secondary); font-size: 0.8rem;">Professional working proficiency</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" style="background: #f8f9fa;">
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="projects-grid">
+            <a href="https://watch-genie-murex.vercel.app/" target="_blank" class="project-card" style="display: block;">
+                <div class="project-img-placeholder" style="background: url('assets/watch_genie.png') center/cover;"></div>
+                <h3 style="margin-bottom: 0.5rem;">Watch Genie</h3>
+                <p style="font-size: 0.85rem; margin-bottom: 1rem;">My first project. A sleek media-tracking web app built with Next.js and Supabase. It helps you organize your favorite movies and TV shows into a personal watchlist.</p>
+                <p style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">VISIT WEBSITE ↗</p>
+            </a>
+            <a href="https://chanda-l-gx.vercel.app/" target="_blank" class="project-card" style="display: block;">
+                <div class="project-img-placeholder" style="background: url('assets/chanda.png') center/cover;"></div>
+                <h3 style="margin-bottom: 0.5rem;">ChandaLGx</h3>
+                <p style="font-size: 0.85rem; margin-bottom: 1rem;">Built for the Spark-Hack 2026 hackathon. An advanced Sanskrit prosody engine designed to decode poetic rhythms using ancient Chandashastra rules.</p>
+                <p style="color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;">VISIT WEBSITE ↗</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" style="text-align: center;">
+        <h2 class="section-title">LET’S CONNECT!</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem; font-weight: 800; letter-spacing: 1px;">INDULEKHA0606@GMAIL.COM</p>
+        <div class="social-links">
+            <a href="https://github.com/indulekha0606S" target="_blank">GITHUB</a>
+            <a href="https://www.linkedin.com/in/indulekha-s-481026395" target="_blank">LINKEDIN</a>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-weight: 800; font-size: 0.8rem;">&copy; 2026 INDULEKHA SAGAMPALLI</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
